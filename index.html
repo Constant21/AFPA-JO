@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module" src="script.js"></script>
 </head>
+
 <body>
-    <header>
-        <div class="logo"></div>
-    </header>
+
+    <form action="#" method="post" id="myForm">
+        <input type="text" name="name" id="name">
+        <input type="text" name="firstName" id="firstName">
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <div class="result" style="display: none;">
+        <p>Le résultat s'affiche ici</p>
+    </div>
+
+
 </body>
+
 </html>
